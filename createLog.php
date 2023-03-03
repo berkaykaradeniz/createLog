@@ -15,9 +15,9 @@ class createLog
       if($path) {
           if(!is_dir($path)) {
               if(strpos($path, "/") === false) {
-                  mkdir($path);
+                  @mkdir($path);
               } else {
-                  mkdir($this->check_directory(substr($path, 0, strrpos($path, "/"))) . "/" . substr($path, strrpos($path, "/") + 1));
+                  @mkdir($this->check_directory(substr($path, 0, strrpos($path, "/"))) . "/" . substr($path, strrpos($path, "/") + 1));
               }
           }
       }

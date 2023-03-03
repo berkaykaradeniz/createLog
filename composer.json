@@ -1,0 +1,24 @@
+{
+    "name": "berkaykaradeniz/createLog",
+    "type": "library",
+    "description": "Basic Log File Creater",
+    "keywords": ["log","logging"],
+    "homepage": "https://github.com/berkaykaradeniz/createLog",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bekay Karadeniz",
+            "email": "berkay.karadeniz@outlook.com",
+            "homepage": "",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=8.0.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "createLog": "src"
+        }
+    }
+}

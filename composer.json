@@ -1,5 +1,5 @@
 {
-    "name": "berkaykaradeniz/createLog",
+    "name": "berkaykaradeniz/create-log",
     "type": "library",
     "description": "Basic Log File Creater",
     "keywords": ["log","logging"],
